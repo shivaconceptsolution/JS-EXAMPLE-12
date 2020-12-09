@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div id="res"></div>	
+<script type="text/javascript">
+	
+  function myFirst(s,fun)
+  {
+    fun(s);
+  }
+  function mySecond(s)
+  {
+  	document.getElementById("res").innerHTML = s;
+  }
+
+myFirst("welcome in scs",mySecond);
+</script>
+</body>
+</html>

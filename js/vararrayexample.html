@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+
+
+</head>
+<body>
+<div id="res"></div>
+
+<script type="text/javascript">
+		
+       function addition(...args)
+       {
+             let sum = 0
+             for(let a of args)
+             {
+             	   sum +=a;
+             }
+
+           return sum;
+       }
+
+    let s = addition(12,23,34,45,67,78,89,11)
+    document.getElementById("res").innerHTML =s;
+	</script>
+</body>
+</html>

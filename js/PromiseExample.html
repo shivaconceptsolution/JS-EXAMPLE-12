@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="res"></div>
+<script type="text/javascript">
+	
+ let pr = new Promise(function(a,b){
+        a("hello")});
+
+pr.then(function(v)
+{
+   document.getElementById("res").innerHTML = v;
+})
+</script>
+
+
+</body>
+
+</html>
